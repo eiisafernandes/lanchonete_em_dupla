@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Cliente\Cadastro;
 
-use App\Http\Requests\CreateClienteFormRequest;
 use App\Models\Cliente;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
