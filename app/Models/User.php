@@ -60,4 +60,9 @@ class User extends Authenticatable
     public function isFuncionario(){
         return $this->role === self::ROLE_FUNCIONARIO;
     }
+
+    public function cliente()
+    {
+        return $this->hasOne(Cliente::class);
+    }
 }
