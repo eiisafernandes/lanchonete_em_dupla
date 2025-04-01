@@ -23,7 +23,12 @@
                     <span class="text-danger small">{{ $message }}</span>
                 @enderror
             </div>
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+            <button type="submit" class="btn btn-dark w-100">Entrar</button>
+
+            <div class="mt-3">
+                <h6 class="fw-light">Não tem uma conta? 🤔</h6>
+                <a href="{{ route('cliente.cadastro')}}" class="btn btn-dark w-100">Cadastre-se já!</a>
+            </div>
         </form>
     </div>
 
